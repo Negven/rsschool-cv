@@ -57,11 +57,13 @@ function descendingOrder(n){
 Practice at company has given me a knowledge of basic JS and HTML DOM.
 
 ---
+
 #Education:
 * I'm learning in Taras Shevchenko National University of Kyiv.
 * Samsung IT-school
 
 ***
+
 #Languages:
 * Ukrainian - native
 * Russian - upper intermediate
