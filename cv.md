@@ -16,3 +16,41 @@ My experience of frontend development has started a few years ago. I had practic
 * JS Basis
 * Git
 * WebStorm, IntelliJ IDEA, VS.
+
+---
+## Code Example:
+```
+function descendingOrder(n){
+  let numbers = [];
+  let  maxId;
+  while( n >= 10){
+    numbers.push(n % 10);
+    n = Math.floor(n/10);
+  }
+  numbers.push(n);
+  for( let i in numbers){
+    maxId = i; 
+    for( let j = i; j < numbers.length; j++){
+      if(numbers[j] > numbers[maxId]){
+        maxId = j;
+      }
+    }
+    let c;
+    c = numbers[maxId];
+    numbers[maxId] = numbers[i];
+    numbers[i] = c;
+  }
+  
+  let result = 0;
+  for( let i in numbers){
+    result *= 10;
+    result += numbers[i];
+  }
+  
+  return result;
+}
+```
+
+***
+# Experience:
+Practice at company has given me a knowledge of basic JS and HTML DOM.
