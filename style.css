@@ -1,0 +1,13 @@
+h1 {
+    font-size: 30px;
+    transition-property: font-size;
+    transition-delay: 0s;
+    transition-duration: 2s;
+}
+
+h1:hover {
+    font-size: 50px;
+    transition-property: font-size;
+    transition-delay: 0s;
+    transition-duration: 2s;
+}
